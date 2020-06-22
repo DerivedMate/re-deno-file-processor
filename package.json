@@ -1,0 +1,18 @@
+{
+  "name": "deno-file-processor",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "deno run --allow-read=data/ src/Main.bs.js",
+    "watch": "bsb -w & tsc -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.3.2"
+  }
+}
